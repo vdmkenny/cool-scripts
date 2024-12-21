@@ -1,0 +1,21 @@
+# calendars.yaml
+
+# Optional: Specify the timezone for all calendars. If omitted, the system's local timezone is used.
+timezone: "Europe/London"
+
+# List of calendars to include in the agenda
+calendars:
+  - name: "Work Calendar"
+    url: "https://example.com/work_calendar.ics"
+    show_description: true      # Set to true to display event/task descriptions
+    show_location: true         # Set to true to display event/task locations
+
+  - name: "Personal Calendar"
+    url: "https://example.com/personal_calendar.ics"
+    show_description: false     # Descriptions will not be displayed
+    show_location: true         # Locations will be displayed
+
+  - name: "Holidays"
+    url: "https://example.com/holidays.ics"
+    # show_description and show_location are omitted, default to false
+

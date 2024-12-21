@@ -1,0 +1,5 @@
+requests>=2.25.1
+ics>=0.7.0
+PyYAML>=5.4.1
+tzlocal>=2.1
+
